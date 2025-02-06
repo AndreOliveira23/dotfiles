@@ -1,5 +1,5 @@
 * {
-    font-family: 'Noto Sans Mono', 'Font Awesome 6 Free', 'Font Awesome 6 Brands', monospace;
+    font-family: "JetbrainsMono Nerd Font";
     font-size: 13px;
 }
 
@@ -50,7 +50,7 @@ button:hover {
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-    background-color: #a37800;
+  /*  background-color: #a37800;*/
 }
 
 #workspaces button {
@@ -146,7 +146,7 @@ button:hover {
 	border-radius: 10px;
 	transition: none;
 	color: #000000;
-	background-color: #f1c40f;
+	background-color: #FAE3B0;
 }
 
 
@@ -209,9 +209,9 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
-margin-top: 6px;
+	background-color: #96CDFB;
+	color: #000000;
+	margin-top: 6px;
 	margin-left: 8px;
 	padding-left: 10px;
 	margin-bottom: 0px;
@@ -221,8 +221,9 @@ margin-top: 6px;
 }
 
 #memory {
-    background-color: #9b59b6;
-margin-top: 6px;
+	background-color: #DDB6F2;
+	color: #000000;
+	margin-top: 6px;
 	margin-left: 8px;
 	padding-left: 10px;
 	margin-bottom: 0px;
@@ -236,11 +237,11 @@ margin-top: 6px;
 }
 
 #backlight {
-    background-color: #90b1b1;
+    background-color: #F8BD96;
 }
 
 #network {
-margin-top: 6px;
+	margin-top: 6px;
 	margin-left: 8px;
 	padding-left: 10px;
 	padding-right: 18px;
@@ -248,7 +249,7 @@ margin-top: 6px;
 	border-radius: 10px;
 	transition: none;
 	color: #161320;
-    background-color: #2980b9;
+	background-color: #bd93f9;
 }
 
 #network.disconnected {
