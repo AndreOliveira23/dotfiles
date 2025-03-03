@@ -8,7 +8,6 @@
     // Choose the order of the modules
     "modules-left": [
         "sway/workspaces",
-	"hyprland/workspaces",
         "sway/mode",
         "sway/scratchpad",
 	"cpu",
@@ -17,11 +16,11 @@
 	"idle_inhibitor"
     ],
     "modules-center": [
-        "sway/window"
+        "sway/window",
+	"hyprland/workspaces"
     ],
     "modules-right": [
         "pulseaudio",
-        "power-profiles-daemon",
         "temperature",
         "backlight",
         "sway/language",
